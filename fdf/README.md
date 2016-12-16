@@ -4,4 +4,4 @@ Ce projet consiste à créer graphiquement la représentation schématique d
 
 Utilisation: make ; ./fdf test_maps/42.fdf
 
-[fdf](wiki/fdf)
+[fdf](../../wiki/fdf)
