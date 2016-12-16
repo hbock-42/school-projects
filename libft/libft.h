@@ -15,12 +15,6 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-typedef struct		s_static_s
-{
-	char			static_s[BUFF_SIZE + 1];
-	int				first_gnl_use;
-}					t_static_s;
-
 /*
 **part 1
 */
