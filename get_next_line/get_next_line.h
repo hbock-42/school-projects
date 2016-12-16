@@ -1,0 +1,37 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hbock <marvin@42.fr>                       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/05/14 16:14:44 by hbock             #+#    #+#             */
+/*   Updated: 2016/05/14 16:14:47 by hbock            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
+
+# define BUFF_SIZE 32
+# define EOF (-1)
+
+/*
+** includes
+*/
+
+# include "libft/libft.h"
+
+typedef struct		s_static_s
+{
+	char			static_s[BUFF_SIZE + 1];
+	int				first_gnl_use;
+}					t_static_s;
+
+/*
+** prototypes
+*/
+
+int					get_next_line(const int fd, char **line);
+
+#endif
