@@ -1,3 +1,5 @@
+Projet get_next_line
+
 Creation d'une fonction qui renvoit une ligne terminée par un retour à la ligne lue depuis un descripteur de fichier.
 
 Cette fonction est destinée à être utilisée dans d'autres projets.
