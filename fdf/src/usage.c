@@ -15,5 +15,5 @@ void		on_screen_ctrl(t_env *e)
 void		print_usages(void)
 {
 	ft_putendl("\e[92mPress:\e[39m numpad \e[35m1\e[39m\e[92m to see the options\n");
-	ft_putendl("\e[31mpress esc to leave properly\e[39m");
+	ft_putendl("\e[31mpress esc to close\e[39m");
 }
