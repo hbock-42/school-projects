@@ -10,7 +10,6 @@ CFLAGS+=-O2
 all: $(NOM)
 
 $(NOM):	$(OBJ)
-	@echo "creating libmlx.a"
 	@ar -r $(NOM) $(OBJ)
 	@ranlib $(NOM)
 
@@ -21,3 +20,5 @@ clean:
 	@rm -f mlx_app
 
 re: clean all
+
+.SILENT: $(OBJ)

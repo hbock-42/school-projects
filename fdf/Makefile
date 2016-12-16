@@ -55,3 +55,4 @@ fclean: clean
 re:	fclean all
 
 .PHONY: all, clean, fclean, re, libft
+.SILENT: $(OBJ_NAME)
