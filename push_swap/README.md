@@ -17,5 +17,5 @@ ra : rotate a - décale d’une position vers le haut tous les élements de la p
 rb : rotate b - décale d’une position vers le haut tous les élements de la pile b. Le premier élément devient le dernier.
 rr : ra et rb en même temps.
 rra : reverse rotate a - décale d’une position vers le bas tous les élements de la pile a. Le dernier élément devient le premier.
-rrb : reverse rotate b - décale d’une position vers le bas tous les élements de la pile b. Le dernier élément devient le premier.
+rb : reverse rotate b - décale d’une position vers le bas tous les élements de la pile b. Le dernier élément devient le premier.
 rrr : rra et rrb en même temps.
